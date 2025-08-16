@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animal Info</title>
+  <link rel="stylesheet" href="style1.css"/>
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#home" class="logo">Animal Info</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        ☰
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#animals" class="nav-link">Animals</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <h1>Welcome to Animal World</h1>
+      <p>Explore fascinating facts about different species of animals.</p>
+      <a href="#animals" class="btn">See Animals</a>
+    </div>
+    <div class="hero-image">
+      <img src="hero-animals.jpg" alt="Wildlife silhouettes"/>
+    </div>
+  </section>
+
+  <!-- Animals Section -->
+  <section id="animals" class="section">
+    <h2>Animals</h2>
+    <p class="section-sub">Learn quick facts about amazing animals.</p>
+
+    <div class="cards">
+      <article class="card">
+        <img src="tiger.jpg" alt="Bengal Tiger" />
+        <div class="card-body">
+          <h3>Tiger</h3>
+          <p>The tiger is the largest cat species, known for its orange coat with black stripes.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="elephant.jpg" alt="Elephant" />
+        <div class="card-body">
+          <h3>Elephant</h3>
+          <p>Elephants are the biggest land animals and are famous for their memory and tusks.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="penguin.jpg" alt="Penguin" />
+        <div class="card-body">
+          <h3>Penguin</h3>
+          <p>Penguins are flightless seabirds that live mostly in the Southern Hemisphere.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="lion.jpg" alt="Lion" />
+        <div class="card-body">
+          <h3>Lion</h3>
+          <p>Known as the king of the jungle, lions are powerful big cats that live in groups called prides.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Animal Info. Explore • Learn • Enjoy.</p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>
